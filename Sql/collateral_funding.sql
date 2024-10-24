@@ -1,0 +1,16 @@
+create table if not exists collateral_funding(
+history_date varchar(255) not null,
+fund_initiated_date varchar(255) null,
+credit_flow_code varchar(255) null,
+origin varchar(255) null,
+audit_flag varchar(255) null,
+audit_done char null,
+audit_type varchar(255) null,
+acted_by varchar(255) null,
+audit_source varchar(255) null,
+collateral_owner varchar(255) null,
+risk_factor varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint collateral_funding_pk primary key(history_date));

@@ -1,0 +1,16 @@
+create table if not exists pan_asia_trading_credit_interest(
+country_code varchar(255) not null,
+credit_flow_code varchar(255) null,
+interest_pending varchar(255) null,
+flattened_controls varchar(255) null,
+premium_payment varchar(255) null,
+net_interest_available char null,
+net_interest_income varchar(255) null,
+accrual_capital_market varchar(255) null,
+middle_office_name varchar(255) null,
+creation_cr varchar(255) null,
+modified_cr varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint pan_asia_trading_credit_interest_pk primary key(country_code));
